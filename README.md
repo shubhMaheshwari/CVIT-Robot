@@ -1,2 +1,7 @@
 # CVIT-Robot
-We are building a platform for different labs to test their models in real time scenarios.
+<video width="320" height="240" controls>
+  <source src="./videos/intro.mp4" type="video/mp4">
+</video>
+
+
+
