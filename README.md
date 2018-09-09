@@ -1,5 +1,5 @@
 # CVIT-Robot
 
-![ Introduction Video ]( "./videos/intro.mp4" )
+![ Introduction Video ]( ./videos/intro.mp4 )
 
 
