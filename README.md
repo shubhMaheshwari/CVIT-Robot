@@ -31,12 +31,28 @@ Each folder inside src is a module
 #### Install 
 Note -> Use source and not run ./install.sh
 ```
-cd CVIT-Robot/scripts/
+cd scripts
 source ./install.sh
 ```
-#### Run 
+**If you face any issues read docs/installation.md**
+
+#### Connect to robot 
+- Attach kinect2 usb(black one) to an USB3 port
+- Attack the white usb wire to the another usb port(USB2 or USB3 both will work) 
+
+#### Test
+Test if all modules are working
 ```
-source ./run.sh
+cd scripts
+source ./test.sh
 ```
 
+#### Run 
+Start the robot
+```
+cd scripts
+source ./run.sh
+```
+# Contribute 
+The project is still in its infaint stage. Any help with code, documentation and testing is much appreciated
 

@@ -1,0 +1,64 @@
+[
+    {
+        "id":10,
+        "name": "Centre for Visual Information Technology - CVIT - Lab near the Lift ",
+        "x":-0.00291177,
+        "y":0.00267295,
+        "pos": -0.000605243,
+        "content1":"Welcome to the Centre for Visual Information Technology commonly know as CVIT .",
+        "content2":"This center also conducts training programs through seminars , workshops and semester long courses .CVIT has several externally funded projects, funded by agencies including Ministry of Communications and Information Technology (MCIT), Department of Science and Technology (DST), different labs of the Defence Research and Development Organization (DRDO), Naval Research Board (NRB), Microsoft Research, Philips Research, and Lions International.",
+        "content3":""
+    },
+    {
+        "id":11,
+        "name": "Centre for Visual Information Technology - CVIT - Inside the Lab - Near Prof.Jawahar's cabin",
+        "x":4.14064,
+        "y":-3.69358,
+        "pos": -0.19422,
+        "content1":"Professor Jawahar is currently working as Professor and is also the Amazon Chair Professor and a part of CVIT.",
+        "content2":"He completed his PhD at IIT Kharagpur. His current interests are Document Image Analysis, Vision, Language and Multimodal Problems,Broad Computer Vision Problems Human in Images and Videos, Machine Learning and Optimization, Some Application Domains.",
+        "content3":""
+    },
+    {
+        "id":12,
+        "name": "Centre for Visual Information Technology - CVIT - Lab near the Conference Room",
+        "content1":"CVIT Lab extends from this corner to the other corner of this floor and in here we discover the other faculty members and their students who are associated with the lab.",
+        "content2":"",
+        "content3":""
+    },
+    {
+        "id":13,
+        "name": "Centre for Visual Information Technology - CVIT - Inside the Lab - Near Prof.Jayanthi's cabin",
+        "content1":"Professor Jayanthi is currently working as Professor and is also the Dean of Academics at IIIT- H.",
+        "content2":"Her research interests are Image processing, Biological Vision Medical Image Analysis, Signal Processing, IT for Education, Cognitive Studies.",
+        "content3":""
+    },
+    {
+        "id":14,
+        "name": "Centre for Visual Information Technology - CVIT - Inside the Lab - Near Prof.P.J.Narayan's cabin",
+        "content1":"Professor P.J.Narayan is currently working as Professor and the Director of IIIT, Hyderabad and is a part of CVIT.",
+        "content2":"He completed his Ph.D. in Computer Science, University of Maryland, College Park,USA. His research interests include Computer Vision, Computer Graphics, and Parallel Computing.",
+        "content3":""
+    },
+    {
+        "id":15,
+        "name": "Centre for Visual Information Technology - CVIT - Inside the Lab - Near Prof.Anoop's, Prof.Vineet's and Prof.Avinash's cabin",
+        "content1":"Our faculty includes Assistant professor, Vineet Gandhi whose areas of interest are in Computer Vision, Multimedia Systems. Anoop Namboodiri, associate professor and interested in Pattern Recognition, Machine Learning, Computer Vision, Biometrics. Avinash Sharma, Assistant Professor is interested in Computer Vision, Machine Learning.",
+        "content2":"Prof. Vineet was awarded Early Career Research Award (ECRA) from Science and Engineering Research Board(SERB),Govt.of India. Prof.Avinash was a Research Scientist at Xerox Research Center India.",
+        "content3":""
+    },
+    {
+        "id":16,
+        "name": "Machine Learning Lab - Near the Conference Room",
+        "content1":"This is our Machine Learning lab commonly known as ML lab.At Machine Learning Laboratory (MLL), we carry out research and develop different theoretical foundations for machine learning such as: How machines should help in planning activities by learning from environments, How machines should learn in the presence of noisy environment, How learning gets affected if different machine learning algorithms are trying compete instead of cooperating.",
+        "content2":"At MLL ,we also try to understand the role of deep learning in planning, reinforcement learning and game theory is studied.",
+        "content3":""    
+    },
+    {
+        "id":17,
+        "name": "Machine Learning Lab - Inside the Lab",
+        "content1":"We have amazing faculty here. Praveen Paruchuri currently works as Associate Professor, Sujit Gujar, Assistant Professor Naresh Manwani, Assistant Professor",
+        "content2":"This lab handles various projects like Dynamic Mechanism Design, Incentive Compatible Machine Learning, Optimizing Average Precision using Weakly Supervised Data.",
+        "content3":""
+    }
+]

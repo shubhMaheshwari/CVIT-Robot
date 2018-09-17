@@ -1,0 +1,149 @@
+[
+    {
+        "id":1,
+        "name": "Entrance",
+        "content1":"Hello, Welcome to Kohli Research Block, IIIT Hyderabad.Kohli Centre on Intelligent Systems ( KCIS ) was launched in July 2015 and was inaugurated on January 16th, 2017 by by Shri K T Rama Rao, Minister for IT, N Chandrasekaran, CEO of TCS, Kohli, Former Deputy Chairman of TCS and Prof Raj Reddy, Chairman of IIIT Hyderabad, to give a fillip to research, teaching and entrepreneurship in the area of Intelligent Systems.",
+        "content2":"This research block is a combined initiative taken up to play a lead role in education, research and outreach activities in the Intelligent Systems area in the country because spreading expertise and interest in the intelligent Systems area widely is a very critical activity for the overall technological advancements.",
+        "content3":"This is a 60,000 sq. ft built up area spread across four floors to provide a world class ambiance for research activities in the specified areas. Each floor dedicated to different fields which together contribute to the growing technology not only in India but across the globe. It was established on the basis that data collection mechanism and intelligent systems such as machine learning and artificial intelligence would help in synthesising the issues and develop responses (solutions) to critical problems."
+    },
+    {
+        "id":2,
+        "name": "Information Retrieval and Extraction Lab - Near the Lab Door",
+        "content1":"This is our Information Retrieval lab. Information retrieval (IR) system deals with the representation, organisation, and accessing of information items, documents or representatives of documents.",
+	  "content2":"Specifically this lab headed by Prof. Vasudev Varma, Professor and the Dean (Research & Development) at IIIT Hyderabad, India deals with a few broader branches of Information Retrieval.IRE lab focuses in identifying and solving problems related to the areas of Summarisation, Sentiment Analysis, User profiling and modeling.",
+        "content3":" It works closely with industries, how cool is that !! Amazon, AOL, Yahoo, Nokia, Intel, TCS, rediff.com, Mahindra Satyam among others are partnered with this lab. It has also obtained government grants from Ministry of Communications and Information Technology, Department of Space, Department of Social Justice and Empowerment, Department of Science and Technology for conducting research in the areas of search and information extraction technologies."
+    },
+    {
+        "id":3,
+        "name": "Information Retrieval and Extraction Lab - VV sir cabin",
+        "content1":"Professor Vasudev Varma, Professor and the Dean (Research & Development) at IIIT Hyderabad, heads this lab. His research interests are in the broad areas of Information Retrieval, Extraction and Access, more specifically: social media analysis, cross language information access, summarization and semantic search.",
+        "content2":"He also works in the areas of Cloud Computing and Reuse in Software Engineering.He works closely with industry (Amazon, AOL, Yahoo, Nokia, Intel,TCS, Rediff.com, Mahindra Satyam among others)",
+        "content3":""
+    },
+    {
+        "id":4,
+        "name": "Information Retrieval and Extraction Lab - Student Space",
+        "content1":"The students of this lab work very closely in the aspects of Information Retrieval : Summarisation, Sentimental Analysis and many more.",
+        "content2":"Talking about the achievements, A delegation of students from IIIT-H led by Prof. Vasudeva Varma from the Information Retrieval and Extraction (IRE) Lab attended 40th annual European Conference on Information Retrieval (ECIR) in Grenoble, France and made a total of 8 presentations",
+        "content3":""
+    },
+    {
+        "id":5,
+        "name": "Machine Translation and Natural Language Processing Lab - Near the lab door",
+        "content1":"Welcome to the Natural Language Processing or Computational Linguistics Lab. It deals with understanding and developing computational theories of human language. Its goals are to create computer systems that can speak and listen to users, machines that can translate from one language to another.It brings about a virtual revolution in access to information.",
+        "content2":"The research is expected to play a major role in facilitating man- machine communication as well as man- man communication. In thi lab work is undertaken in many different sub-areas of NLP including syntax and parsing, semantics and word sense disambiguation, discourse and tree banking, machine translation, etc.",
+        "content3":"The Lab and the Centre as a whole, has done original work on developing Computational Paninian Grammar (CPG) framework for Indian languages. Using such a framework, treebank for Indian languages have been developed."
+    },
+    {
+        "id":6,
+        "name": "Machine Translation and Natural Language Processing Lab - Prof. Dipti Mishra's Cabin",
+        "content1":"Professor Dipti Mishra is currently working as Professor and Head of ‘Language Technologies Research Center’ (LTRC) in IIIT-H.",
+        "content2":" She completed her PhD degree at Delhi University. Her research areas are machine translation and linguistics.",
+        "content3":""
+    },
+    {
+        "id":7,
+        "name": "Machine Translation and Natural Language Processing Lab - Prof. Manish Shrivastava's Cabin",
+        "content1":"Professor Manish Shrivastava is currently working as Assistant Professor and is a part of ‘Language Technologies Research Center’ (LTRC) in IIIT-H.",
+        "content2":"He completed his PhD degree at IIT-Bombay. His research interests are natural language processing, machine learning, machine translation, and natural language processing for indian languages.",
+        "content3":"A group of researchers from IIIT-H, working under Prof Manish Shrivastava from the LTRC, have proposed a novel approach to detecting fake news on websites through an automated processes. The article won the Best Paper Award “ First Place at the International Conference on Computational Linguistics and Intelligent Text Processing (CICLing) held in Hanoi, Vietnam in March. "
+    },
+    {
+        "id":8,
+        "name": "Machine Translation and Natural Language Processing Lab - Prof. Radhika Mamidi's Cabin",
+        "content1":"She is currently working as Assistant Professor and is a part of ‘Language Technologies Research Center’ (LTRC) in IIIT-H.",
+        "content2":" She completed her PhD degree at University of Hyderabad. Her research interests are computational morphology, machine translation, dialog systems, pragmatics and humour studies.",
+        "content3":""
+    },
+    {
+        "id":9,
+        "name": "Speech Processing Lab",
+        "content1":"This is our Speech Processing Lab.The thrust of the activity carried on in the Speech and Vision Lab (SVL) at IIIT-H is on the development of natural input and output interfaces to a computer through speech and image.The focus is on development of speech input/output systems for Indian languages, with the objective of achieving speech translation from one Indian language to another.",
+        "content2":"Another objective is to develop person authentication systems for providing secure access to information using biometrics that involves inputs in the form of speech, video, fingerprint, etc., and developing systems for content based information retrieval for non textual data.",
+        "content3":"This lab broadly focuses on Speech signal processing , Speech-to-text conversion , Text-to-speech conversion and many more related areas.Recent research contributions were in the field of Speech enhancement for robust recognition in practical environments."
+    },
+    {
+        "id":10,
+        "name": "Centre for Visual Information Technology - CVIT - Lab near the Lift ",
+        "content1":"Welcome to the Centre for Visual Information Technology commonly know as CVIT .The research activities here involve in developing new technologies in the field of Computer Vision, Image Processing, Computer Graphics, Pattern Recognition and Machine Learning.",
+        "content2":"This center also conducts training programs through seminars , workshops and semester long courses .CVIT has several externally funded projects, funded by agencies including Ministry of Communications and Information Technology (MCIT), Department of Science and Technology (DST), different labs of the Defence Research and Development Organization (DRDO), Naval Research Board (NRB), Microsoft Research, Philips Research, and Lions International.",
+        "content3":""
+    },
+    {
+        "id":11,
+        "name": "Centre for Visual Information Technology - CVIT - Inside the Lab - Near Prof.Jawahar's cabin",
+        "content1":"Professor Jawahar is currently working as Professor and is also the Amazon Chair Professor and a part of CVIT.",
+        "content2":"He completed his PhD at IIT Kharagpur. His current interests are Document Image Analysis, Vision, Language and Multimodal Problems,Broad Computer Vision Problems Human in Images and Videos, Machine Learning and Optimization, Some Application Domains.",
+        "content3":""
+    },
+    {
+        "id":12,
+        "name": "Centre for Visual Information Technology - CVIT - Lab near the Conference Room",
+        "content1":"CVIT Lab extends from this corner to the other corner of this floor and in here we discover the other faculty members and their students who are associated with the lab.",
+        "content2":"",
+        "content3":""
+    },
+    {
+        "id":13,
+        "name": "Centre for Visual Information Technology - CVIT - Inside the Lab - Near Prof.Jayanthi's cabin",
+        "content1":"Professor Jayanthi is currently working as Professor and is also the Dean of Academics at IIIT- H.",
+        "content2":"Her research interests are Image processing, Biological Vision Medical Image Analysis, Signal Processing, IT for Education, Cognitive Studies.",
+        "content3":""
+    },
+    {
+        "id":14,
+        "name": "Centre for Visual Information Technology - CVIT - Inside the Lab - Near Prof.P.J.Narayan's cabin",
+        "content1":"Professor P.J.Narayan is currently working as Professor and the Director of IIIT, Hyderabad and is a part of CVIT.",
+        "content2":"He completed his Ph.D. in Computer Science, University of Maryland, College Park,USA. His research interests include Computer Vision, Computer Graphics, and Parallel Computing.",
+        "content3":""
+    },
+    {
+        "id":15,
+        "name": "Centre for Visual Information Technology - CVIT - Inside the Lab - Near Prof.Anoop's, Prof.Vineet's and Prof.Avinash's cabin",
+        "content1":"Our faculty includes Assistant professor, Vineet Gandhi whose areas of interest are in Computer Vision, Multimedia Systems. Anoop Namboodiri, associate professor and interested in Pattern Recognition, Machine Learning, Computer Vision, Biometrics. Avinash Sharma, Assistant Professor is interested in Computer Vision, Machine Learning.",
+        "content2":"Prof. Vineet was awarded Early Career Research Award (ECRA) from Science and Engineering Research Board(SERB),Govt.of India. Prof.Avinash was a Research Scientist at Xerox Research Center India.",
+        "content3":""
+    },
+    {
+        "id":16,
+        "name": "Machine Learning Lab - Near the Conference Room",
+        "content1":"This is our Machine Learning lab commonly known as ML lab.At Machine Learning Laboratory (MLL), we carry out research and develop different theoretical foundations for machine learning such as: How machines should help in planning activities by learning from environments, How machines should learn in the presence of noisy environment, How learning gets affected if different machine learning algorithms are trying compete instead of cooperating.",
+        "content2":"At MLL ,we also try to understand the role of deep learning in planning, reinforcement learning and game theory is studied.",
+        "content3":""
+    },
+    {
+        "id":17,
+        "name": "Machine Learning Lab - Inside the Lab",
+        "content1":"We have amazing faculty here. Praveen Paruchuri currently works as Associate Professor, Sujit Gujar, Assistant Professor Naresh Manwani, Assistant Professor",
+        "content2":"This lab handles various projects like Dynamic Mechanism Design, Incentive Compatible Machine Learning, Optimizing Average Precision using Weakly Supervised Data.",
+        "content3":""
+    },
+    {
+        "id":18,
+        "name": "Data Science and Analytics Center - Near the Lab",
+        "content":"This is Data Science and Analytics Center popularly known as DSAC (desac). DSAC conducts research, facilitates technology transfer, and builds systems in the broad area of data engineering. Data engineering encompasses modelling, storage and management, processing, dissemination, search, recommendation, and autonomous processing of structured and semi-structured data.",
+        "content2":"This lab focuses on research areas like Database systems, Data Analytics, Data Visualisation, Data Dissemination and Personalisation, Electronic Contracts and Workflow Management Systems.",
+        "content3":"Agents and Applied Robotics Group (AARG) is incubated in DSAC lab, KCIS, where we design autonomous, intelligent agents for applications in the domain of Multi-Robot and Multi-Agent Systems."
+    },
+    {
+        "id":19,
+        "name": "Data Science and Analytics Center - Inside the Lab - Prof.Kamal's Cabin",
+        "content1":"He is currently working as a Professor at International Institute of Information Technology, Hyderabad since December,2000. He is the head of Data Sciences and Analytics Centre and Agents and Applied Robotics Group.",
+        "content2":"He is a Ph.D scholar from University of Florida. His research is supported by various organisations, for example, Google, IBM, Boeing, Microsoft, Hitachi, Infosys, Novartis.",
+        "content3":"His team secured the third place in Trading Agent Competition - SCM 2012 (Third Place)."
+    },
+    {
+        "id":20,
+        "name": "Data Science and Analytics Center - Inside the Lab - Prof.Vikram Pudi's Cabin",
+        "content1":"He is currently working as an Associate Professor and his research interests are in the areas of Data Mining and Artificial Intelligence.",
+        "content2":"He is a Ph.D scholar from Indian Institute of Science (​IISc​), Bangalore. His work on Explicit Modelling of the Implicit Short Term User Preferences for Music Recommendation was presented in the European Conference on Information Retrieval.",
+        "content3":""
+    },
+    {
+        "id":21,
+        "name": "Cognitive Science Lab - Near the Lift, near the lab",
+        "content1":"This is Cognitive Science lab. Do you know what cog sci is? .Cog science is the study of how we perceive, act, reason about and form beliefs about our environment.Our lab is currently working on research problems like:Cognitive modelling of aesthetics and its applications to layout and interface design, Understanding and modelling visual metaphors,Developing cognition and communicative assistive tools for children with learning difficulties like dyslexia and autism, Understanding and modelling human visual processing system, Understanding Cognitive Vision.",
+        "content2":"Understanding Cognitive Vision is another problem we are working on. Vision is the most studied and most important of human senses. It helps us in navigating through this complex world and in identification of objects even from a distance. It is normally so sure and effortless that we naturally assume that it is indeed effortless.",
+        "content3":"The synergy between biological and computer vision research can give substantial insights into the processing carried out in our human visual system. The modularity of our visual system had given birth to several sub fields in the field of cognitive vision such as those relating to color perception, motion perception, 3D vision etc."
+    }
+]
