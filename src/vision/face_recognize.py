@@ -8,7 +8,6 @@ import numpy as np
 import PIL.Image
 import json
 import cv2
-import config
 from imutils import face_utils,resize
 
 # For plotting the features and understanding face distribuition
@@ -41,14 +40,13 @@ class FaceRecognition:
 
 		face_list = []
 		face_name_list = []
-		face_id_list = []
 		for face in faces: 
 			for encoding in face['encodings']:
 				face_list.append(np.array(encoding))
 				face_name_list.append(face['name'])
-				face_id_list.append(face['id'])
 
 		self.face_list = np.array(face_list)
+		self.face_name_list = face_name_list
 
 		if landmark_model == "small":
 			predictor_5_point_model = face_recognition_models.pose_predictor_five_point_model_location()
@@ -56,8 +54,9 @@ class FaceRecognition:
 		else:
 			predictor_68_point_model = face_recognition_models.pose_predictor_model_location()
 			self.pose_predictor = dlib.shape_predictor(predictor_68_point_model)
+		
 		face_recognition_model = face_recognition_models.face_recognition_model_location()
-		face_encoder = dlib.face_recognition_model_v1(face_recognition_model)
+		self.face_encoder = dlib.face_recognition_model_v1(face_recognition_model)
 
 
 	def _raw_face_landmarks(self,face_image, face_location=None, model="large"):
@@ -112,7 +111,7 @@ class FaceRecognition:
 			print(e)
 	 
 	 	# Run the FaceNet and get the encoding
-		encoding = np.array(face_encoder.compute_face_descriptor(face_image, raw_landmarks, 10))
+		encoding = np.array(self.face_encoder.compute_face_descriptor(face_image, raw_landmarks, 10))
 
 		# Get the id and distance
 		face_id,face_confidence = self._face_distance(encoding)
@@ -123,8 +122,12 @@ class FaceRecognition:
 			return self.face_name_list[face_id], face_confidence
 
 def do_PCA():
+	"""
+		We want to see the relations between face encoding of different people 
+		Hence best way to visualize is using PCA 
+	"""
 
-
+	# Load face encodings
 	with open('../../data/face_recognize_features.json') as f:
 			faces = json.load(f)
 
@@ -137,9 +140,13 @@ def do_PCA():
 
 	face_list = np.array(face_list)
 	fig = plt.figure()
+	
+	# Compute PCA
 	pca = PCA(2)
 	pca.fit(face_list)
 	faces = pca.transform(face_list)
+	
+	# Display images
 	for i,face_point in enumerate(faces):
 		plt.scatter(face_point[0] , face_point[1], label=face_name_list[i])
 	plt.title('Faces relations')

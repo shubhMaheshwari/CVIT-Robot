@@ -32,8 +32,8 @@ mate-terminal  --tab -e 'zsh -c " roslaunch kinect2_bridge kinect2_bridge.launch
 ./run_modules.sh roscore
 
 
-# Start UI/Apps
-./run_android.sh roscore
+# # Start UI/Apps
+# ./run_android.sh roscore
 
 
 

@@ -38,7 +38,7 @@ fi
 # Installing libfreenect2
 echo "Installing libfreenect2"
 cd $BUILD_DIR
-git submodule add -f https://github.com/OpenKinect/libfreenect2.git
+git clone https://github.com/OpenKinect/libfreenect2.git
 cd libfreenect2
 sudo apt-get install libusb-1.0-0-dev libturbojpeg0-dev libglfw3-dev
 cmake . -Dfreenect2_DIR=$HOME/freenect2/lib/cmake/freenect2 -DCMAKE_INSTALL_PREFIX=$HOME/freenect2
@@ -58,13 +58,13 @@ catkin_make
 ros_activate
 
 
-CATKIN_DIR="$BUILD_DIR/catkin_ws"
+CATKIN_DIR="~/catkin_ws"
 #Install iai_kinect2
 echo "Installing iai_kinect"
 cd $CATKIN_DIR
 echo $CATKIN_DIR
 cd src 
-git submodule add -f https://github.com/code-iai/iai_kinect2.git
+git clone https://github.com/code-iai/iai_kinect2.git
 cd iai_kinect2
 rosdep install -r --from-paths .
 cd $CATKIN_DIR
@@ -74,7 +74,7 @@ catkin_make -DCMAKE_BUILD_TYPE="Release"
 # Install pysabertooth on python2
 echo "Installing pysabertooth"
 cd $BUILD_DIR
-git submodule add -f https://github.com/MomsFriendlyRobotCompany/pysabertooth.git
+git clone https://github.com/MomsFriendlyRobotCompany/pysabertooth.git
 cd pysabertooth/  
 sudo -H pip2 install pysabertooth
 

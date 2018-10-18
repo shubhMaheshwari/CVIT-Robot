@@ -63,7 +63,6 @@ class FaceDetetionSSD:
 		param: frame -- Image(numpy array)
 		return: list of face locations
 		"""
-
 		# Check for valid image 
 		(h, w) = frame.shape[:2]
 		if h == 0 or w == 0:
@@ -81,6 +80,7 @@ class FaceDetetionSSD:
 		detections = self.net.forward()
 		detections = detections[0,0,:,:]
 		detections = detections[detections[:,2] > self.confidence]
+		print("Hello")
 	
 		# Return the list of faces located as a 4-tuple
 		face_locations = []
@@ -93,20 +93,36 @@ class FaceDetetionSSD:
 
 class FaceDetetionHaar:
 	def __init__(self):
-		# For running Haar cascade in opencv we require to import the xml file.
+		"""
+			For running Haar cascade in opencv we require to import the xml file.
+		"""
 		self.face_cascade = cv2.CascadeClassifier('../../models/haarcascade_frontalface_default.xml')
 	
-	def detect_face_haar(frame):
+	def detect_face_haar(self,frame):
+		"""
+		Function called by our class
+		param: frame -- Image(numpy array)
+		return: list of face locations
+		"""
 		gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
 		face_locations = self.face_cascade.detectMultiScale(gray, 1.3, 5)
 		
 		return face_locations
 
 class FaceDetetionDlib:
+	"""
+	We can run inbuild face detection using dlib
+	"""
+
 	def __init__(self):
-		# We can run inbuild face detection using dlib
 		self.detector = dlib.get_frontal_face_detector()			
-	def detect_face_dlib(frame):
+	def detect_face_dlib(self,frame):
+		"""
+		Function called by our class
+		param: frame -- Image(numpy array)
+		return: list of face locations
+		"""
+		
 		(h, w) = frame.shape[:2]
 		if h == 0 or w == 0:
 			return [] 
