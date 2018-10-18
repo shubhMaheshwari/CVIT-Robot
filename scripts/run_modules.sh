@@ -32,5 +32,10 @@ cd ../AI
 mate-terminal --tab -e 'zsh -c "echo Running visual_path_planning; python2 visual_path_planning.py"' --tab -e 'zsh -c "echo Running Tour guide backend; python2 tour_guide_data.py"'
 
 
+sleep 2
+cd ../movement
+# AI
+mate-terminal --tab -e 'zsh -c "echo Running Motors; python2 mover.py"'
+
 # # # Running chartbot
 # mate-terminal --tab -e 'zsh -c "echo Running chatbot;cd ~/ML/Chatbot-sentex/nmt_chatbot/; python3 user_input.py"' &

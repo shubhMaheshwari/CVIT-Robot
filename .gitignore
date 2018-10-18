@@ -1,3 +1,8 @@
+# Data folder and models must be excluded
+models/
+data/
+
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

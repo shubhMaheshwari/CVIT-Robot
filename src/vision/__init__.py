@@ -34,6 +34,7 @@ class KinectModule:
 			Initialize the kinect module. It starts all the publishers and subscribers
 		"""
 		self.people_pub = rospy.Publisher("/people_detection",String, queue_size=10)
+		self.depth_pub = rospy.Publisher("/depth_detection",String, queue_size=10)
 		self.processed_image = rospy.Publisher("/processed_image",CompressedImage, queue_size=10)
 
 		self.bridge = CvBridge()
@@ -111,7 +112,7 @@ class KinectModule:
 		avg = depth_image[:MK*K, :NL*L].reshape(MK, K, NL, L).mean(axis=(1, 3))
 
 		# Get the closest object for each og 60 size row
-		self.people_pub.publish(json.dumps(avg.tolist()))
+		self.depth_pub.publish(json.dumps(avg.tolist()))
 
 
 def kinect_run():

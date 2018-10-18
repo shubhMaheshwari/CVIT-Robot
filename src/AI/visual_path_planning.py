@@ -59,7 +59,7 @@ def people_callback(data):
 	global person_name
 	import time
 	obj = json.loads(data.data)
-
+	print("Object:",obj)
 	person_id = np.argmin([ np.fabs(d['x'] - person_x)  for d in obj])
 	person_x = int(obj[person_id]['x'])
 	person_area = obj[person_id]['area']
@@ -96,7 +96,7 @@ def listener():
 	rospy.init_node('listener', anonymous=True)
 
 	rospy.Subscriber("/people_detection", String, people_callback)
-	rospy.Subscriber("/object_detection", String, object_callback)
+	rospy.Subscriber("/depth_detection", String, object_callback)
 	rospy.Subscriber("/robot_mode", String, robot_mode_callback)
 
 	person_prev_area = person_area
