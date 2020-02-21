@@ -1,7 +1,7 @@
 # CVIT-Robot
 
 # Video
-![ Introduction Video ]( https://drive.google.com/file/d/1SDlhBSQthCtVEDE34lp6lhz5CXWrZF1z/view?usp=sharing )
+Link to demo video:  https://drive.google.com/file/d/1SDlhBSQthCtVEDE34lp6lhz5CXWrZF1z/view?usp=sharing
 
 Using a kinect and wheelchair we are developing a robot which can interact with users. 
 
